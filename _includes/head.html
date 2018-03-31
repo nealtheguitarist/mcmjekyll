@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="{{ site.description }}">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="css/ico/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="css/ico/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="css/ico/favicon-16x16.png">
-    <link rel="manifest" href="css/site.webmanifest">
-    <link rel="mask-icon" href="css/ico/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/css/ico/apple-touch-icon.png" | prepend: site.baseurl }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "/css/ico/favicon-32x32.png" | prepend: site.baseurl }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "/css/ico/favicon-16x16.png" | prepend: site.baseurl }}">
+    <link rel="manifest" href="{{ "css/site.webmanifest" | prepend: site.baseurl }}">
+    <link rel="mask-icon" href="{{ "css/ico/safari-pinned-tab.svg" | prepend: site.baseurl }}" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
-    <link rel="stylesheet" href="{{ "/css/index.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ "/css/index.css" | prepend: site.baseurl }}">
 </head>
